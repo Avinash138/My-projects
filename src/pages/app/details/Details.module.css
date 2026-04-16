@@ -23,7 +23,7 @@
 
 .courses::-webkit-scrollbar {
   display: none;
-  /* Safari and Chrome */
+  
 }
 
 .image_container img {

@@ -6,7 +6,7 @@ function Chapter() {
   const { chapterId } = useParams();
   const course = useOutletContext();
   const chapter = course.chapters.find(
-    // convert the number to string for equality check
+    
     (chapter) => String(chapter.chapter) === chapterId
   );
   console.log(chapter);
@@ -19,7 +19,7 @@ function Chapter() {
       <br />
       <br />
       <div className={styles.videos}>
-        {/*TASK:5 CHAPTER VIDEO SRC SHOULD BE GIVEN IN THE SOURCE */}
+        
         <iframe
           width="800"
           height="560"

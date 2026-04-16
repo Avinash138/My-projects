@@ -15,7 +15,7 @@ function Courses() {
         {coursesData.map((course, index) => {
           return (
             <div key={index} className={style.card_container}>
-              {/* Third Task: Added link to individual Cards */}
+              
               <Link to={`/courses/${course.id}`}>
                 <Card
                   key={course.id}
